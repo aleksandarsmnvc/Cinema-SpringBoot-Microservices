@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="properties file name changed again">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/test/java/com/aleksandar_simeunovic/movie_service/MovieServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/test/java/com/aleksandar_simeunovic/movie_service/MovieServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pJA59Sp1s8F9IFDzIwH4WPC96Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ConfigurationServerApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.MovieServiceApplication.executor": "Run",
+    "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
+    "JUnit.MovieServiceApplicationTests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/eureka-server/pom.xml",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleksandar\IdeaProjects\CinemaBookingProject" />
+      <recent name="C:\Users\Aleksandar\IdeaProjects\CinemaBookingProject\configuration-server\src\main\resources" />
+      <recent name="C:\Users\Aleksandar\IdeaProjects\CinemaBookingProject\configuration-server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MovieServiceApplicationTests">
+    <configuration name="ConfigurationServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.configuration_server.ConfigurationServerApplication" />
+      <module name="configuration-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aleksandar_simeunovic.configuration_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.eureka_server.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aleksandar_simeunovic.eureka_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.movie_service.MovieServiceApplication" />
+      <module name="movie-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aleksandar_simeunovic.movie_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movie-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aleksandar_simeunovic.movie_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aleksandar_simeunovic.movie_service" />
+      <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.movie_service.MovieServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movie-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aleksandar_simeunovic.movie_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aleksandar_simeunovic.movie_service" />
+      <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.movie_service.MovieServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MovieServiceApplicationTests" />
+        <item itemvalue="Application.MovieServiceApplication" />
+        <item itemvalue="Application.ConfigurationServerApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="JUnit.MovieServiceApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="" />
+      <created>1732473623824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732473623824</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Configuration Server created">
+      <option name="closed" value="true" />
+      <created>1732474683179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732474683179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Configuration Server finished">
+      <option name="closed" value="true" />
+      <created>1732634645190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732634645190</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Configuration server fixes">
+      <option name="closed" value="true" />
+      <created>1733232135156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733232135157</updated>
+    </task>
+    <task id="LOCAL-00004" summary="configuration.properties moved">
+      <option name="closed" value="true" />
+      <created>1733235393727</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235393727</updated>
+    </task>
+    <task id="LOCAL-00005" summary="configuration.properties moved to main folder">
+      <option name="closed" value="true" />
+      <created>1733235546832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235546832</updated>
+    </task>
+    <task id="LOCAL-00006" summary="properties file name changed">
+      <option name="closed" value="true" />
+      <created>1733235759480</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235759480</updated>
+    </task>
+    <task id="LOCAL-00007" summary="properties file name changed again">
+      <option name="closed" value="true" />
+      <created>1733236073313</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733236073313</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configuration Server created" />
+    <MESSAGE value="Configuration Server finished" />
+    <MESSAGE value="Configuration server fixes" />
+    <MESSAGE value="configuration.properties moved" />
+    <MESSAGE value="configuration.properties moved to main folder" />
+    <MESSAGE value="properties file name changed" />
+    <MESSAGE value="properties file name changed again" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties file name changed again" />
+  </component>
+</project>
