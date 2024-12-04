@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Eureka and Configuration server up">
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/aleksandar_simeunovic/eureka_server/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/aleksandar_simeunovic/eureka_server/EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Eureka corrections">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/aleksandar_simeunovic/movie_service/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/aleksandar_simeunovic/movie_service/model/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
     "JUnit.MovieServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "movie__service",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject",
     "project.structure.last.edited": "Project",
@@ -61,7 +61,7 @@
       <recent name="C:\Users\Aleksandar\IdeaProjects\CinemaBookingProject\configuration-server" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieServiceApplicationTests">
+  <component name="RunManager" selected="Application.MovieServiceApplication">
     <configuration name="ConfigurationServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.configuration_server.ConfigurationServerApplication" />
       <module name="configuration-server" />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovieServiceApplication" />
+        <item itemvalue="Application.ConfigurationServerApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="JUnit.MovieServiceApplicationTests.contextLoads" />
         <item itemvalue="JUnit.MovieServiceApplicationTests" />
-        <item itemvalue="Application.MovieServiceApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.ConfigurationServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733319637241</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Eureka corrections">
+      <option name="closed" value="true" />
+      <created>1733319772353</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733319772353</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,6 +244,7 @@
     <MESSAGE value="properties file name changed again" />
     <MESSAGE value="All files added" />
     <MESSAGE value="Eureka and Configuration server up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eureka and Configuration server up" />
+    <MESSAGE value="Eureka corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eureka corrections" />
   </component>
 </project>
