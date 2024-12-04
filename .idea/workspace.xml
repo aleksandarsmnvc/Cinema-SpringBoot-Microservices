@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Eureka corrections">
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="movie module deleated">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/aleksandar_simeunovic/movie_service/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/aleksandar_simeunovic/movie_service/model/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +47,9 @@
     "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
     "JUnit.MovieServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "movie__service",
+    "git-widget-placeholder": "cinema__service",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject",
+    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBooking/cinema-service/pom.xml",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -231,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733319772353</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="movie module deleated">
+      <option name="closed" value="true" />
+      <created>1733322234231</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733322234231</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,6 +255,7 @@
     <MESSAGE value="All files added" />
     <MESSAGE value="Eureka and Configuration server up" />
     <MESSAGE value="Eureka corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eureka corrections" />
+    <MESSAGE value="movie module deleated" />
+    <option name="LAST_COMMIT_MESSAGE" value="movie module deleated" />
   </component>
 </project>
