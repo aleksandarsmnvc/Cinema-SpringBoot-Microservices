@@ -8,10 +8,12 @@
         <option value="$PROJECT_DIR$/movie-service/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/../CinemaBooking/cinema-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cinema-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../CinemaBooking/cinema-service/pom.xml" />
         <option value="$PROJECT_DIR$/movie-service/pom.xml" />
       </set>
     </option>

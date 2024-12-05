@@ -24,4 +24,5 @@ public class EventService {
         return eventRepository.findAll();
     }
 
+    //public void addEvent(int movie_id,int cinema_id,)
 }

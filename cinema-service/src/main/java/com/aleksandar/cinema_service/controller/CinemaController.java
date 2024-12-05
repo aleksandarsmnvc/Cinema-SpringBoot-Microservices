@@ -5,11 +5,13 @@ import com.aleksandar.cinema_service.dto.MovieDTO;
 import com.aleksandar.cinema_service.dto.ShortCinemaDTO;
 import com.aleksandar.cinema_service.mappers.CinemaMapper;
 import com.aleksandar.cinema_service.model.Cinema;
+import com.aleksandar.cinema_service.request.CinemaCreateRequest;
 import com.aleksandar.cinema_service.service.CinemaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -34,8 +36,8 @@ public class CinemaController {
     }
 
     @PostMapping("")
-    public ResponseEntity<?> createCinema(@RequestBody CinemaDTO cinemaDTO){
-        cinemaService.addCinema(cinemaDTO);
+    public ResponseEntity<?> createCinema(CinemaCreateRequest request, MultipartFile cover_file){
+        cinemaService.addCinema(request,cover_file);
         return ResponseEntity.ok("Successfully created Cinema instance!");
     }
 }

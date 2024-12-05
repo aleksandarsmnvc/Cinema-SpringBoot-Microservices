@@ -6,15 +6,18 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class MovieCreateRequest {
+@NoArgsConstructor
+public class CinemaCreateRequest {
     @NotBlank
     private String name;
     @NotBlank
-    private String director;
-    @NotBlank
     private String description;
+    @NotBlank
+    private String city;
+    @NotBlank
+    private String country;
 }

@@ -3,10 +3,12 @@ package com.aleksandar.cinema_service.service;
 import com.aleksandar.cinema_service.dto.CinemaDTO;
 import com.aleksandar.cinema_service.model.Cinema;
 import com.aleksandar.cinema_service.repository.CinemaRepository;
+import com.aleksandar.cinema_service.request.CinemaCreateRequest;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -15,6 +17,7 @@ import java.util.List;
 public class CinemaService {
     @Autowired
     private CinemaRepository cinemaRepository;
+    private final FileUploadService file_service;
 
     public Cinema getCinema(int id)throws EntityNotFoundException{
         return cinemaRepository.findById(id)
@@ -25,13 +28,18 @@ public class CinemaService {
         return cinemaRepository.findAll();
     }
 
-    public void addCinema(CinemaDTO cinemaDTO){
+    public void addCinema(CinemaCreateRequest request, MultipartFile cover_file){
+
+        String cover_image=null;
+        if(cover_file!=null)
+            cover_image=file_service.uploadCinemaCoverImg(cover_file).getBody();
+
         cinemaRepository.save(Cinema.builder()
-                .name(cinemaDTO.getName())
-                .cover_image(cinemaDTO.getCover_image())
-                .description(cinemaDTO.getDescription())
-                .city(cinemaDTO.getCity())
-                .country(cinemaDTO.getCountry())
+                .name(request.getName())
+                .cover_image(cover_image)
+                .description(request.getDescription())
+                .city(request.getCity())
+                .country(request.getCountry())
                 .build());
     }
 }
