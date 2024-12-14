@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Eureka corrections">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/aleksandar/file_upload/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/aleksandar/file_upload/exc/GeneralExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/aleksandar/file_upload/exc/GenericErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/aleksandar/file_upload/model/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/aleksandar/file_upload/repository/FileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/aleksandar/file_upload/service/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/com/aleksandar_simeunovic/movie_service/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/com/aleksandar_simeunovic/movie_service/model/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="cinema_service" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,9 +56,10 @@
     "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
     "JUnit.MovieServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "movie__service",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "fileupload",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject",
+    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/file-upload/pom.xml",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
