@@ -2,6 +2,7 @@ package com.aleksandar.cinema_service.service;
 
 import com.aleksandar.cinema_service.dto.CinemaDTO;
 import com.aleksandar.cinema_service.model.Cinema;
+import com.aleksandar.cinema_service.client.FileUploadService;
 import com.aleksandar.cinema_service.repository.CinemaRepository;
 import com.aleksandar.cinema_service.request.CinemaCreateRequest;
 import jakarta.persistence.EntityNotFoundException;
@@ -32,7 +33,7 @@ public class CinemaService {
 
         String cover_image=null;
         if(cover_file!=null)
-            cover_image=file_service.uploadCinemaCoverImg(cover_file).getBody();
+            cover_image=file_service.uploadImgToFileService(cover_file).getBody();
 
         cinemaRepository.save(Cinema.builder()
                 .name(request.getName())

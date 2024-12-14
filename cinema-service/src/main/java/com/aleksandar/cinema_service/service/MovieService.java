@@ -2,6 +2,7 @@ package com.aleksandar.cinema_service.service;
 
 import com.aleksandar.cinema_service.dto.MovieDTO;
 import com.aleksandar.cinema_service.model.Movie;
+import com.aleksandar.cinema_service.client.FileUploadService;
 import com.aleksandar.cinema_service.repository.MovieRepository;
 import com.aleksandar.cinema_service.request.MovieCreateRequest;
 import jakarta.persistence.EntityNotFoundException;
@@ -32,11 +33,11 @@ public class MovieService {
     public void addMovie(MovieCreateRequest request, MultipartFile cover_file,MultipartFile trailer_file){
         String cover_image=null;
         if(cover_file!=null)
-            cover_image=file_service.uploadMovieCoverImg(cover_file).getBody();
+            cover_image=file_service.uploadImgToFileService(cover_file).getBody();
 
         String trailer=null;
         if(trailer_file!=null)
-            trailer=file_service.uploadMovieTrailer(trailer_file).getBody();
+            trailer=file_service.uploadTrailerToFileService(trailer_file).getBody();
 
         repository.save(Movie.builder()
                 .name(request.getName())
