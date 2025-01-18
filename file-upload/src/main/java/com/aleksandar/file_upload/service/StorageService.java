@@ -1,6 +1,8 @@
 package com.aleksandar.file_upload.service;
 
+import com.aleksandar.file_upload.exc.GenericErrorResponse;
 import com.aleksandar.file_upload.repository.FileRepository;
+import com.aleksandar.file_upload.model.File;
 
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;

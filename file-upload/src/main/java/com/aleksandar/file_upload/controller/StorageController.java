@@ -1,5 +1,6 @@
 package com.aleksandar.file_upload.controller;
 
+import com.aleksandar.file_upload.service.StorageService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +14,7 @@ public class StorageController {
     private final StorageService storageService;
 
     @PostMapping("/upload")
-    public ResponseEntity<String> uploadImageToFIleSystem(@RequestPart("image") MultipartFile file) {
+    public ResponseEntity<String> uploadImageToFileSystem(@RequestPart("image") MultipartFile file) {
         return ResponseEntity.ok().body(storageService.uploadImageToFileSystem(file));
     }
 
