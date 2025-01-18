@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class StorageController {
     private final StorageService storageService;
 
-    @PostMapping("/upload")
+    @PostMapping("/upload/img")
     public ResponseEntity<String> uploadImageToFileSystem(@RequestPart("image") MultipartFile file) {
         return ResponseEntity.ok().body(storageService.uploadImageToFileSystem(file));
     }
