@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Changed Movie and Cinema controllers,Added CreateRequest classes">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-upload/src/main/java/com/aleksandar/file_upload/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/file-upload/src/main/java/com/aleksandar/file_upload/service/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-upload/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file-upload/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
     "JUnit.MovieServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "fileupload",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/cinema-service/pom.xml",
     "project.structure.last.edited": "Project",
@@ -258,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733403819069</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Changed FileUploadService">
+      <option name="closed" value="true" />
+      <created>1737220840513</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737220840513</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,6 +282,7 @@
     <MESSAGE value="movie module deleated" />
     <MESSAGE value="added cinema_service" />
     <MESSAGE value="Changed Movie and Cinema controllers,Added CreateRequest classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Movie and Cinema controllers,Added CreateRequest classes" />
+    <MESSAGE value="Changed FileUploadService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed FileUploadService" />
   </component>
 </project>
