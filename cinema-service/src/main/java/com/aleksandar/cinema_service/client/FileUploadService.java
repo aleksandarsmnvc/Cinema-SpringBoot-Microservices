@@ -17,12 +17,12 @@ public interface FileUploadService {
     @DeleteMapping(value="delete/img/{name}")
     ResponseEntity<Void> DeleteImgByName(@PathVariable String name);
 
-    @PostMapping(value = "/upload/trailer",consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    /*@PostMapping(value = "/upload/trailer",consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     ResponseEntity<String> uploadTrailerToFileService(@RequestPart("trailer") MultipartFile file);
 
     @GetMapping(value="get/trailer/{name}")
     ResponseEntity<MultipartFile> GetTrailerByName(@PathVariable String name);
 
     @DeleteMapping(value="delete/trailer/{name}")
-    ResponseEntity<Void> DeleteTrailerByName(@PathVariable String name);
+    ResponseEntity<Void> DeleteTrailerByName(@PathVariable String name);*/
 }

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Changed Movie and Cinema controllers,Added CreateRequest classes">
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/client/FileUploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/CinemaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/CinemaServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/CinemaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/CinemaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/test/java/com/aleksandar/cinema_service/MovieServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/test/java/com/aleksandar/cinema_service/MovieServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/client/FileUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/client/FileUploadService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,10 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MovieServiceApplicationTests" />
         <item itemvalue="JUnit.MovieServiceApplicationTests.MovieServiceGetTestHappyFlow" />
-        <item itemvalue="Application.ConfigurationServerApplication" />
+        <item itemvalue="JUnit.MovieServiceApplicationTests" />
         <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Application.ConfigurationServerApplication" />
         <item itemvalue="Application.CinemaServiceApplication" />
       </list>
     </recent_temporary>

@@ -15,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="cinema-service" target="21" />
       <module name="cinema-service (1)" target="21" />
+      <module name="file-upload" target="21" />
       <module name="movie-service" target="21" />
     </bytecodeTargetLevel>
   </component>
