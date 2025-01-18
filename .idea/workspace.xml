@@ -4,9 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Changed Movie and Cinema controllers,Added CreateRequest classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-upload/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file-upload/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Changes on cinema,movie and event create request and services.">
+      <change afterPath="$PROJECT_DIR$/cinema-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/CinemaServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/client/FileUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/CinemaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/EventDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/MovieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/ShortCinemaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/ShortEventDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/ShortMovieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/enums/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/exceptions/GeneralExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/mappers/CinemaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/mappers/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/mappers/MovieMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/model/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/repository/CinemaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/repository/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/request/CinemaCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/request/EventCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/request/MovieCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/CinemaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cinema-service/src/test/java/com/aleksandar/cinema_service/MovieServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +83,7 @@
     "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
     "JUnit.MovieServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/cinema-service/pom.xml",
     "project.structure.last.edited": "Project",
@@ -283,6 +319,7 @@
     <MESSAGE value="added cinema_service" />
     <MESSAGE value="Changed Movie and Cinema controllers,Added CreateRequest classes" />
     <MESSAGE value="Changed FileUploadService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed FileUploadService" />
+    <MESSAGE value="Changes on cinema,movie and event create request and services." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes on cinema,movie and event create request and services." />
   </component>
 </project>
