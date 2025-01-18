@@ -11,11 +11,11 @@ public interface FileUploadService {
     @PostMapping(value = "/upload/img", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     ResponseEntity<String> uploadImgToFileService(@RequestPart("image") MultipartFile file);
 
-    @GetMapping(value="get/img/{name}")
-    ResponseEntity<MultipartFile> GetImgByName(@PathVariable String name);
+    @GetMapping(value="download/img/{id}")
+    ResponseEntity<MultipartFile> GetImgById(@PathVariable String id);
 
-    @DeleteMapping(value="delete/img/{name}")
-    ResponseEntity<Void> DeleteImgByName(@PathVariable String name);
+    @DeleteMapping(value="delete/img/{id}")
+    ResponseEntity<Void> DeleteImgById(@PathVariable String id);
 
     /*@PostMapping(value = "/upload/trailer",consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     ResponseEntity<String> uploadTrailerToFileService(@RequestPart("trailer") MultipartFile file);

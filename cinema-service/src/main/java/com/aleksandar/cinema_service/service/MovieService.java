@@ -30,21 +30,17 @@ public class MovieService {
         return repository.findAll();
     }
 
-    public void addMovie(MovieCreateRequest request, MultipartFile cover_file,MultipartFile trailer_file){
+    public void addMovie(MovieCreateRequest request, MultipartFile cover_file){
         String cover_image=null;
         if(cover_file!=null)
             cover_image=file_service.uploadImgToFileService(cover_file).getBody();
-
-        String trailer=null;
-        if(trailer_file!=null)
-            trailer=file_service.uploadTrailerToFileService(trailer_file).getBody();
 
         repository.save(Movie.builder()
                 .name(request.getName())
                 .cover_image(cover_image)
                 .description(request.getDescription())
                 .director(request.getDirector())
-                .trailer(trailer)
+                .trailer("null")
                 .build());
     }
 

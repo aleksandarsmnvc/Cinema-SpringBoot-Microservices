@@ -34,8 +34,8 @@ public class MovieController {
                 .map(MovieMapper::toShortMovieDTO).toList());
     }
     @PostMapping("")
-    public ResponseEntity<?> createMovie(MovieCreateRequest request, MultipartFile movie_file,MultipartFile trailer_file){
-        service.addMovie(request,movie_file,trailer_file);
+    public ResponseEntity<?> createMovie(MovieCreateRequest request, MultipartFile movie_file){
+        service.addMovie(request,movie_file);
         return new ResponseEntity<>("Successfully created",HttpStatus.CREATED);
     }
 }

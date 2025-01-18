@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+
 
 @Getter
 @Setter
@@ -17,7 +19,7 @@ public class CinemaCreateRequest {
     @NotBlank
     private String description;
     @NotBlank
-    private String city;
-    @NotBlank
     private String country;
+    @NotBlank
+    private String city;
 }
