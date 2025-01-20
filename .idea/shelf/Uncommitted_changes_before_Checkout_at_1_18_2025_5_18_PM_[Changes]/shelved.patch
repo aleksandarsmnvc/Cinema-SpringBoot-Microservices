@@ -1,0 +1,41 @@
+Index: file-upload/src/main/java/com/aleksandar/file_upload/controller/StorageController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.aleksandar.file_upload.controller;\r\n\r\nimport lombok.RequiredArgsConstructor;\r\nimport org.springframework.http.MediaType;\r\nimport org.springframework.http.ResponseEntity;\r\nimport org.springframework.web.bind.annotation.*;\r\nimport org.springframework.web.multipart.MultipartFile;\r\n\r\n@RestController\r\n@RequestMapping(\"/v1/file-storage\")\r\n@RequiredArgsConstructor\r\npublic class StorageController {\r\n    private final StorageService storageService;\r\n\r\n    @PostMapping(\"/upload\")\r\n    public ResponseEntity<String> uploadImageToFIleSystem(@RequestPart(\"image\") MultipartFile file) {\r\n        return ResponseEntity.ok().body(storageService.uploadImageToFileSystem(file));\r\n    }\r\n\r\n    @GetMapping(\"/download/{id}\")\r\n    public ResponseEntity<?> downloadImageFromFileSystem(@PathVariable String id) {\r\n        return ResponseEntity.ok()\r\n                .contentType(MediaType.valueOf(\"image/png\"))\r\n                .body(storageService.downloadImageFromFileSystem(id));\r\n    }\r\n\r\n    @DeleteMapping(\"/delete/{id}\")\r\n    public ResponseEntity<Void> deleteImageFromFileSystem(@PathVariable String id) {\r\n        storageService.deleteImageFromFileSystem(id);\r\n        return ResponseEntity.ok().build();\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/file-upload/src/main/java/com/aleksandar/file_upload/controller/StorageController.java b/file-upload/src/main/java/com/aleksandar/file_upload/controller/StorageController.java
+--- a/file-upload/src/main/java/com/aleksandar/file_upload/controller/StorageController.java	(revision 17ae12266b97f6a567309f1606b4b43b0b558c9a)
++++ b/file-upload/src/main/java/com/aleksandar/file_upload/controller/StorageController.java	(date 1734207581280)
+@@ -1,5 +1,6 @@
+ package com.aleksandar.file_upload.controller;
+ 
++import com.aleksandar.file_upload.service.StorageService;
+ import lombok.RequiredArgsConstructor;
+ import org.springframework.http.MediaType;
+ import org.springframework.http.ResponseEntity;
+Index: file-upload/src/main/java/com/aleksandar/file_upload/service/StorageService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.aleksandar.file_upload.service;\r\n\r\nimport com.aleksandar.file_upload.repository.FileRepository;\r\n\r\nimport jakarta.annotation.PostConstruct;\r\nimport lombok.RequiredArgsConstructor;\r\nimport org.springframework.http.HttpStatus;\r\nimport org.springframework.stereotype.Service;\r\nimport org.springframework.web.multipart.MultipartFile;\r\n\r\nimport java.io.IOException;\r\nimport java.nio.file.Files;\r\nimport java.util.UUID;\r\n\r\n@Service\r\n@RequiredArgsConstructor\r\npublic class StorageService {\r\n    private final FileRepository fileRepository;\r\n    private String FOLDER_PATH;\r\n\r\n    @PostConstruct\r\n    public void init() {\r\n        String currentWorkingDirectory = System.getProperty(\"user.dir\");\r\n\r\n        FOLDER_PATH = currentWorkingDirectory + \"/file-storage/src/main/resources/attachments\";\r\n\r\n        java.io.File targetFolder = new java.io.File(FOLDER_PATH);\r\n\r\n        if (!targetFolder.exists()) {\r\n            boolean directoriesCreated = targetFolder.mkdirs();\r\n            if (!directoriesCreated) {\r\n                throw GenericErrorResponse.builder()\r\n                        .message(\"Unable to create directories\")\r\n                        .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)\r\n                        .build();\r\n            }\r\n        }\r\n    }\r\n\r\n    public String uploadImageToFileSystem(MultipartFile file) {\r\n        String uuid = UUID.randomUUID().toString();\r\n        String filePath = FOLDER_PATH + \"/\" + uuid;\r\n\r\n        try {\r\n            file.transferTo(new java.io.File(filePath));\r\n        } catch (IOException e) {\r\n            throw GenericErrorResponse.builder()\r\n                    .message(\"Unable to save file to storage\")\r\n                    .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)\r\n                    .build();\r\n        }\r\n\r\n        fileRepository.save(File.builder()\r\n                .id(uuid)\r\n                .type(file.getContentType())\r\n                .filePath(filePath).build());\r\n        return uuid;\r\n    }\r\n\r\n    public byte[] downloadImageFromFileSystem(String id) {\r\n        try {\r\n            return Files.readAllBytes(new java.io.File(findFileById(id)\r\n                    .getFilePath()).toPath());\r\n        } catch (IOException e) {\r\n            throw GenericErrorResponse.builder()\r\n                    .message(\"Unable to read file from storage\")\r\n                    .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)\r\n                    .build();\r\n        }\r\n    }\r\n\r\n    public void deleteImageFromFileSystem(String id) {\r\n        java.io.File file = new java.io.File(findFileById(id).getFilePath());\r\n\r\n        boolean deletionResult = file.delete();\r\n\r\n        if (deletionResult) fileRepository.deleteById(id);\r\n\r\n        else throw GenericErrorResponse.builder()\r\n                .message(\"Unable to delete file from storage\")\r\n                .httpStatus(HttpStatus.INTERNAL_SERVER_ERROR)\r\n                .build();\r\n    }\r\n\r\n\r\n    protected File findFileById(String id) {\r\n        return fileRepository.findById(id)\r\n                .orElseThrow(() -> GenericErrorResponse.builder()\r\n                        .message(\"File not found\")\r\n                        .httpStatus(HttpStatus.NOT_FOUND)\r\n                        .build());\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/file-upload/src/main/java/com/aleksandar/file_upload/service/StorageService.java b/file-upload/src/main/java/com/aleksandar/file_upload/service/StorageService.java
+--- a/file-upload/src/main/java/com/aleksandar/file_upload/service/StorageService.java	(revision 17ae12266b97f6a567309f1606b4b43b0b558c9a)
++++ b/file-upload/src/main/java/com/aleksandar/file_upload/service/StorageService.java	(date 1734207581268)
+@@ -1,6 +1,8 @@
+ package com.aleksandar.file_upload.service;
+ 
+ import com.aleksandar.file_upload.repository.FileRepository;
++import com.aleksandar.file_upload.exc.GenericErrorResponse;
++import com.aleksandar.file_upload.model.File;
+ 
+ import jakarta.annotation.PostConstruct;
+ import lombok.RequiredArgsConstructor;
+@@ -22,7 +24,7 @@
+     public void init() {
+         String currentWorkingDirectory = System.getProperty("user.dir");
+ 
+-        FOLDER_PATH = currentWorkingDirectory + "/file-storage/src/main/resources/attachments";
++        FOLDER_PATH = currentWorkingDirectory + "/file-upload/src/main/resources/attachments";
+ 
+         java.io.File targetFolder = new java.io.File(FOLDER_PATH);
+ 
