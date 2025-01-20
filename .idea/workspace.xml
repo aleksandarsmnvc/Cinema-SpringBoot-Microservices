@@ -4,45 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Changes on cinema,movie and event create request and services.">
-      <change afterPath="$PROJECT_DIR$/cinema-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/CinemaServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/client/FileUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/CinemaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/EventDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/MovieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/ShortCinemaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/ShortEventDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/ShortMovieDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/enums/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/exceptions/GeneralExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/mappers/CinemaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/mappers/EventMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/mappers/MovieMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/model/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/repository/CinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/repository/EventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/repository/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/request/CinemaCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/request/EventCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/request/MovieCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/CinemaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/MovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/test/java/com/aleksandar/cinema_service/MovieServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="CinemaService added">
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/FileServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/exc/GeneralExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/exc/GenericErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/model/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/repository/FileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/client/FileUploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/client/FileUploadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/request/CinemaCreateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/request/CinemaCreateRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/request/EventCreateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/request/EventCreateRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/service/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration-server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -78,18 +60,20 @@
     "Application.CinemaServiceApplication.executor": "Run",
     "Application.ConfigurationServerApplication.executor": "Run",
     "Application.EurekaServerApplication.executor": "Run",
+    "Application.FileServiceApplication.executor": "Run",
+    "Application.FileUploadApplication.executor": "Run",
     "Application.MovieServiceApplication.executor": "Run",
     "JUnit.MovieServiceApplicationTests.MovieServiceGetTestHappyFlow.executor": "Run",
     "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
     "JUnit.MovieServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "file__service",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/cinema-service/pom.xml",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/file-service/pom.xml",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,7 +83,20 @@
       <recent name="C:\Users\Aleksandar\IdeaProjects\CinemaBookingProject\configuration-server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MovieServiceApplication">
+  <component name="RunManager" selected="Application.FileServiceApplication">
+    <configuration name="CinemaServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aleksandar.cinema_service.CinemaServiceApplication" />
+      <module name="cinema-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aleksandar.cinema_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigurationServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.configuration_server.ConfigurationServerApplication" />
       <module name="configuration-server" />
@@ -126,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.movie_service.MovieServiceApplication" />
-      <module name="movie-service" />
+    <configuration name="FileServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.file_service.FileServiceApplication" />
+      <module name="file-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aleksandar_simeunovic.movie_service.*" />
+          <option name="PATTERN" value="com.aleksandar_simeunovic.file_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,44 +136,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movie-service" />
+    <configuration name="FileUploadApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aleksandar.file_upload.FileUploadApplication" />
+      <module name="file-upload" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aleksandar_simeunovic.movie_service.*" />
+          <option name="PATTERN" value="com.aleksandar.file_upload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aleksandar_simeunovic.movie_service" />
-      <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.movie_service.MovieServiceApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movie-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aleksandar_simeunovic.movie_service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aleksandar_simeunovic.movie_service" />
-      <option name="MAIN_CLASS_NAME" value="com.aleksandar_simeunovic.movie_service.MovieServiceApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MovieServiceApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.MovieServiceApplicationTests" />
-        <item itemvalue="Application.MovieServiceApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Application.FileServiceApplication" />
+        <item itemvalue="Application.FileUploadApplication" />
+        <item itemvalue="Application.CinemaServiceApplication" />
         <item itemvalue="Application.ConfigurationServerApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737220840513</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="CinemaService added">
+      <option name="closed" value="true" />
+      <created>1737223148327</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737223148327</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -320,6 +307,7 @@
     <MESSAGE value="Changed Movie and Cinema controllers,Added CreateRequest classes" />
     <MESSAGE value="Changed FileUploadService" />
     <MESSAGE value="Changes on cinema,movie and event create request and services." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes on cinema,movie and event create request and services." />
+    <MESSAGE value="CinemaService added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CinemaService added" />
   </component>
 </project>

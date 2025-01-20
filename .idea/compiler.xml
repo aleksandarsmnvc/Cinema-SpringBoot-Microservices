@@ -8,21 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="file-service" />
         <module name="configuration-server" />
-      </profile>
-      <profile name="Annotation profile for file-upload" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
-        </processorPath>
-        <module name="file-upload" />
+        <module name="cinema-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cinema-service" target="21" />
       <module name="cinema-service (1)" target="21" />
+      <module name="file-upload" target="21" />
       <module name="movie-service" target="21" />
     </bytecodeTargetLevel>
   </component>
@@ -33,6 +26,7 @@
       <module name="cinema-service (2)" options="-parameters" />
       <module name="configuration-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="file-service" options="-parameters" />
       <module name="file-upload" options="-parameters" />
       <module name="movie-service" options="-parameters" />
     </option>
