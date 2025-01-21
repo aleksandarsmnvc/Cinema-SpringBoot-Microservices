@@ -7,6 +7,7 @@ import com.aleksandar.cinema_service.mappers.CinemaMapper;
 import com.aleksandar.cinema_service.model.Cinema;
 import com.aleksandar.cinema_service.request.CinemaCreateRequest;
 import com.aleksandar.cinema_service.service.CinemaService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -36,7 +37,8 @@ public class CinemaController {
     }
 
     @PostMapping("")
-    public ResponseEntity<?> createCinema(CinemaCreateRequest request, MultipartFile cover_file){
+    public ResponseEntity<?> createCinema(@Valid @RequestPart CinemaCreateRequest request,
+                                          @RequestPart(required = false)MultipartFile cover_file){
         cinemaService.addCinema(request,cover_file);
         return ResponseEntity.ok("Successfully created Cinema instance!");
     }

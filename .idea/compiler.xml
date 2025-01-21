@@ -12,6 +12,15 @@
         <module name="configuration-server" />
         <module name="cinema-service" />
       </profile>
+      <profile name="Annotation profile for authentification-server" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="authentification-server" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cinema-service (1)" target="21" />
@@ -21,6 +30,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authentification-server" options="-parameters" />
       <module name="cinema-service" options="-parameters" />
       <module name="cinema-service (1)" options="-parameters" />
       <module name="cinema-service (2)" options="-parameters" />

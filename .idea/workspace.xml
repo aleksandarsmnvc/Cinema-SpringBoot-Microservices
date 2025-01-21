@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="CinemaService added">
-      <change afterPath="$PROJECT_DIR$/configurations.properties" afterDir="false" />
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Added configurations.properties file.">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/CinemaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/CinemaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/controller/CinemaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/controller/CinemaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/service/CinemaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/service/CinemaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configurations.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/exc/GeneralExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/exc/GeneralExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +60,9 @@
     "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
     "JUnit.MovieServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "authentification__service",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/file-service/pom.xml",
+    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/authentification-server/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -69,7 +76,7 @@
       <recent name="C:\Users\Aleksandar\IdeaProjects\CinemaBookingProject\configuration-server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CinemaServiceApplication">
+  <component name="RunManager" selected="Application.FileServiceApplication">
     <configuration name="CinemaServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aleksandar.cinema_service.CinemaServiceApplication" />
       <module name="cinema-service" />
@@ -132,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileServiceApplication" />
         <item itemvalue="Application.CinemaServiceApplication" />
         <item itemvalue="Application.ConfigurationServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="JUnit.All in eureka-server" />
-        <item itemvalue="Application.FileServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737223148327</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added configurations.properties file.">
+      <option name="closed" value="true" />
+      <created>1737391010168</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737391010168</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +304,7 @@
     <MESSAGE value="Changed FileUploadService" />
     <MESSAGE value="Changes on cinema,movie and event create request and services." />
     <MESSAGE value="CinemaService added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CinemaService added" />
+    <MESSAGE value="Added configurations.properties file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added configurations.properties file." />
   </component>
 </project>

@@ -17,7 +17,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CinemaService {
     @Autowired
-    private CinemaRepository cinemaRepository;
+    private final CinemaRepository cinemaRepository;
     private final FileUploadService file_service;
 
     public Cinema getCinema(int id)throws EntityNotFoundException{
