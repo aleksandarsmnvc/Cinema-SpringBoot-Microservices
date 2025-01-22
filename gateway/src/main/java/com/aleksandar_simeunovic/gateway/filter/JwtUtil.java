@@ -1,5 +1,8 @@
 package com.aleksandar_simeunovic.gateway.filter;
 
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.io.Decoders;
+import io.jsonwebtoken.security.Keys;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
