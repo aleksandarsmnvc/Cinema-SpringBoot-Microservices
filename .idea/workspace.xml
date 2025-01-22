@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Created module,added dependencies.">
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/client/CustomErrorDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/client/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/config/AuthConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/dto/RegisterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/dto/TokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/GeneralExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/GenericErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/WrongCredentialsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/request/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/service/AuthService.java" afterDir="false" />
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Written Controller,written configurations,openfeign clients and exceptions.">
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/service/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/service/JwtService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/ValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/service/AuthService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737486826080</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Written Controller,written configurations,openfeign clients and exceptions.">
+      <option name="closed" value="true" />
+      <created>1737515839584</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1737515839584</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -322,6 +319,7 @@
     <MESSAGE value="CinemaService added" />
     <MESSAGE value="Added configurations.properties file." />
     <MESSAGE value="Created module,added dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created module,added dependencies." />
+    <MESSAGE value="Written Controller,written configurations,openfeign clients and exceptions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Written Controller,written configurations,openfeign clients and exceptions." />
   </component>
 </project>

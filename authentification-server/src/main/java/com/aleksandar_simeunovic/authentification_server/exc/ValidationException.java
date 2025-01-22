@@ -7,6 +7,6 @@ import java.util.Map;
 
 @Builder
 @Getter
-public class ValidationException {
+public class ValidationException extends RuntimeException {
     private Map<String, String> validationErrors;
 }
