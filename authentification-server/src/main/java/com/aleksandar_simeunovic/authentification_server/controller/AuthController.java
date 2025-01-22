@@ -18,12 +18,12 @@ public class AuthController {
     private final AuthService service;
 
     @PostMapping("/login")
-    public TokenDTO LoginUser(LoginRequest request){
-        ResponseEntity.ok(AuthService.authentificate(request));
+    public ResponseEntity<TokenDTO> LoginUser(LoginRequest request){
+       return ResponseEntity.ok(service.authentificate(request));
     }
 
     @PostMapping("/register")
-    public RegisterDTO RegisterUser(RegisterRequest request){
-        ResponseEntity.ok((AuthService.register(request)));
+    public ResponseEntity<RegisterDTO> RegisterUser(RegisterRequest request){
+       return ResponseEntity.ok((service.register(request)));
     }
 }

@@ -1,6 +1,7 @@
 package com.aleksandar_simeunovic.authentification_server.client;
 
 import com.aleksandar_simeunovic.authentification_server.exc.GenericErrorResponse;
+import com.aleksandar_simeunovic.authentification_server.exc.ValidationException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import feign.Response;
 import feign.codec.ErrorDecoder;
