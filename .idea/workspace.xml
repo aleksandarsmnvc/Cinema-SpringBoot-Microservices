@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Added configurations.properties file.">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Created module,added dependencies.">
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/client/CustomErrorDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/client/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/dto/RegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/GeneralExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/GenericErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/exc/WrongCredentialsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/request/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentification-server/src/main/java/com/aleksandar_simeunovic/authentification_server/service/AuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/CinemaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/CinemaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/controller/CinemaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/controller/CinemaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/service/CinemaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/target/classes/com/aleksandar/cinema_service/service/CinemaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configurations.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/exc/GeneralExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/exc/GeneralExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Exception" />
         <option value="Class" />
       </list>
@@ -62,7 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "authentification__service",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/authentification-server/pom.xml",
+    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -284,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737391010168</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Created module,added dependencies.">
+      <option name="closed" value="true" />
+      <created>1737486826080</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737486826080</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -305,6 +321,7 @@
     <MESSAGE value="Changes on cinema,movie and event create request and services." />
     <MESSAGE value="CinemaService added" />
     <MESSAGE value="Added configurations.properties file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added configurations.properties file." />
+    <MESSAGE value="Created module,added dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created module,added dependencies." />
   </component>
 </project>
