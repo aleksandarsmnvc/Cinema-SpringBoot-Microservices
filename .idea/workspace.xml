@@ -4,10 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Gateway routes and filter configured.">
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Pom file jwt dependencies add.">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/dto/AuthUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/exc/GeneralExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/exc/GenericErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/exc/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/exc/UnauthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/jwt/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/jwt/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/model/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/request/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/request/UserUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/aleksandar_simeunovic/user_service/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_18_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_18_PM_[Changes]2/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_18_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_18_PM__Changes_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_20_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_20_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_47_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_47_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_57_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_18_2025_5_57_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/aleksandar_simeunovic/gateway/filter/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/aleksandar_simeunovic/gateway/filter/JwtUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Exception" />
         <option value="Class" />
@@ -40,28 +71,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CinemaServiceApplication.executor": "Run",
-    "Application.ConfigurationServerApplication.executor": "Run",
-    "Application.EurekaServerApplication.executor": "Run",
-    "Application.FileServiceApplication.executor": "Run",
-    "Application.FileUploadApplication.executor": "Run",
-    "Application.MovieServiceApplication.executor": "Run",
-    "JUnit.All in eureka-server.executor": "Run",
-    "JUnit.MovieServiceApplicationTests.MovieServiceGetTestHappyFlow.executor": "Run",
-    "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
-    "JUnit.MovieServiceApplicationTests.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/spring-boot-microservices",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CinemaServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigurationServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileUploadApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MovieServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in eureka-server.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovieServiceApplicationTests.MovieServiceGetTestHappyFlow.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovieServiceApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovieServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;user__service&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aleksandar/IdeaProjects/CinemaBookingProject/user-service/pom.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aleksandar\IdeaProjects\CinemaBookingProject" />
@@ -317,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737523414856</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Pom file jwt dependencies add.">
+      <option name="closed" value="true" />
+      <created>1737548151043</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1737548151043</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -343,6 +382,7 @@
     <MESSAGE value="Implented neccessary UserDetails and UserDetailsService interfaces.Implented JWT functinalities." />
     <MESSAGE value="Error fixes in controller." />
     <MESSAGE value="Gateway routes and filter configured." />
-    <option name="LAST_COMMIT_MESSAGE" value="Gateway routes and filter configured." />
+    <MESSAGE value="Pom file jwt dependencies add." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pom file jwt dependencies add." />
   </component>
 </project>
