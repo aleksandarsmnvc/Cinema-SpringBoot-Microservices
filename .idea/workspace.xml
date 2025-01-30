@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="User service application.properties files changed.">
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/client/CustomErrorDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/config/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/exceptions/GenericErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/EventDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/dto/EventDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/exceptions/GeneralExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/exceptions/GeneralExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/mappers/CinemaMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/mappers/EventMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/mappers/MovieMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/model/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/request/EventCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/request/EventCreateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/service/FileService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="user_service" />
+        <entry key="$PROJECT_DIR$" value="cinema_branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +52,7 @@
     "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
     "JUnit.MovieServiceApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "cinema__branch",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/spring-boot-microservices",
     "project.structure.last.edited": "Modules",

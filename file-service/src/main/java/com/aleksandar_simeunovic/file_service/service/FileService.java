@@ -23,7 +23,7 @@ public class FileService {
     public void init() {
         String currentWorkingDirectory = System.getProperty("user.dir");
 
-        FOLDER_PATH = currentWorkingDirectory + "/file-storage/src/main/resources/attachments";
+        FOLDER_PATH = currentWorkingDirectory + "/file-service/src/main/resources/attachments";
 
         java.io.File targetFolder = new java.io.File(FOLDER_PATH);
 
