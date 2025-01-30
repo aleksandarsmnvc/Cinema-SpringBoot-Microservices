@@ -2,7 +2,6 @@ package com.aleksandar.cinema_service.controller;
 
 import com.aleksandar.cinema_service.dto.MovieDTO;
 import com.aleksandar.cinema_service.dto.ShortMovieDTO;
-import com.aleksandar.cinema_service.mappers.MovieMapper;
 import com.aleksandar.cinema_service.model.Movie;
 import com.aleksandar.cinema_service.request.MovieCreateRequest;
 import com.aleksandar.cinema_service.service.MovieService;
@@ -34,8 +33,9 @@ public class MovieController {
     @GetMapping("")
     public ResponseEntity<List<ShortMovieDTO>> getAllMovies(){
         return ResponseEntity.ok(service.getAllMovies().stream()
-                .map(movie -> mapper.map(movie,ShortMovieDTO)).toList());
+                .map(movie -> mapper.map(movie,ShortMovieDTO.class)).toList());
     }
+
     @PostMapping("")
     public ResponseEntity<?> createMovie(MovieCreateRequest request, MultipartFile movie_file){
         service.addMovie(request,movie_file);

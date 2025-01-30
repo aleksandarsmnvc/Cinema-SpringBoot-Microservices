@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="User service application.properties files changed.">
-      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/src/main/java/com/aleksandar_simeunovic/file_service/service/FileService.java" afterDir="false" />
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="File service path to save files changed.">
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/MovieController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737950337624</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="File service path to save files changed.">
+      <option name="closed" value="true" />
+      <created>1738275946466</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1738275946466</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -370,6 +379,7 @@
     <MESSAGE value="Gateway routes and filter configured." />
     <MESSAGE value="Pom file jwt dependencies add." />
     <MESSAGE value="User service application.properties files changed." />
-    <option name="LAST_COMMIT_MESSAGE" value="User service application.properties files changed." />
+    <MESSAGE value="File service path to save files changed." />
+    <option name="LAST_COMMIT_MESSAGE" value="File service path to save files changed." />
   </component>
 </project>

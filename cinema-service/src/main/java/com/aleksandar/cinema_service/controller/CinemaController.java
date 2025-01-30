@@ -1,9 +1,7 @@
 package com.aleksandar.cinema_service.controller;
 
 import com.aleksandar.cinema_service.dto.CinemaDTO;
-import com.aleksandar.cinema_service.dto.MovieDTO;
 import com.aleksandar.cinema_service.dto.ShortCinemaDTO;
-import com.aleksandar.cinema_service.mappers.CinemaMapper;
 import com.aleksandar.cinema_service.model.Cinema;
 import com.aleksandar.cinema_service.request.CinemaCreateRequest;
 import com.aleksandar.cinema_service.service.CinemaService;
