@@ -9,6 +9,7 @@ import com.aleksandar.cinema_service.request.CinemaCreateRequest;
 import com.aleksandar.cinema_service.service.CinemaService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,18 +23,20 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CinemaController {
     @Autowired
-    private CinemaService cinemaService;
+    private final CinemaService cinemaService;
+    @Autowired
+    private final ModelMapper mapper;
 
     @GetMapping("/{id}")
     public ResponseEntity<CinemaDTO>getCinema(@PathVariable int id)throws Exception{
         Cinema cinema=cinemaService.getCinema(id);
-        return ResponseEntity.ok(CinemaMapper.toCinemaDTO(cinema));
+        return ResponseEntity.ok(mapper.map(cinema,CinemaDTO.class));
     }
 
     @GetMapping("")
     public ResponseEntity<List<ShortCinemaDTO>> getAllCinema(){
         return ResponseEntity.ok(cinemaService.getAllCinema().stream()
-                .map(CinemaMapper::toShortCinemaDTO).toList());
+                .map(cinema -> mapper.map(cinema,ShortCinemaDTO.class)).toList());
     }
 
     @PostMapping("")

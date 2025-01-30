@@ -7,6 +7,7 @@ import com.aleksandar.cinema_service.model.Movie;
 import com.aleksandar.cinema_service.request.MovieCreateRequest;
 import com.aleksandar.cinema_service.service.MovieService;
 import lombok.RequiredArgsConstructor;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,17 +22,19 @@ import java.util.List;
 public class MovieController {
 
     @Autowired
-    private MovieService service;
+    private final MovieService service;
+    @Autowired
+    private final ModelMapper mapper;
 
     @GetMapping("/{id}")
     public ResponseEntity<MovieDTO> getMovie(@PathVariable int id) throws Exception{
         Movie movie = service.getMovie(id);
-        return ResponseEntity.ok(MovieMapper.toMovieDTO(movie));
+        return ResponseEntity.ok(mapper.map(movie,MovieDTO.class));
     }
     @GetMapping("")
     public ResponseEntity<List<ShortMovieDTO>> getAllMovies(){
         return ResponseEntity.ok(service.getAllMovies().stream()
-                .map(MovieMapper::toShortMovieDTO).toList());
+                .map(movie -> mapper.map(movie,ShortMovieDTO)).toList());
     }
     @PostMapping("")
     public ResponseEntity<?> createMovie(MovieCreateRequest request, MultipartFile movie_file){
