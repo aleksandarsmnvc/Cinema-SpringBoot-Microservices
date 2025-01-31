@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="File service path to save files changed.">
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/CinemaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cinema-service/src/main/java/com/aleksandar/cinema_service/controller/MovieController.java" afterDir="false" />
+    <list default="true" id="455458b4-c3a4-491c-a33a-92b9ac911afe" name="Changes" comment="Changed UserController RequestMapping path">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aleksandarsmnvc"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aleksandarsmnvc/Cinema-SpringBoot-Microservices.git",
+    "accountId": "41d88978-3d6b-48e0-a91d-3614445ae12b"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -40,28 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CinemaServiceApplication.executor": "Run",
-    "Application.ConfigurationServerApplication.executor": "Run",
-    "Application.EurekaServerApplication.executor": "Run",
-    "Application.FileServiceApplication.executor": "Run",
-    "Application.FileUploadApplication.executor": "Run",
-    "Application.MovieServiceApplication.executor": "Run",
-    "JUnit.All in eureka-server.executor": "Run",
-    "JUnit.MovieServiceApplicationTests.MovieServiceGetTestHappyFlow.executor": "Run",
-    "JUnit.MovieServiceApplicationTests.contextLoads.executor": "Run",
-    "JUnit.MovieServiceApplicationTests.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aleksandar/IdeaProjects/spring-boot-microservices",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CinemaServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigurationServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileUploadApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MovieServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in eureka-server.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovieServiceApplicationTests.MovieServiceGetTestHappyFlow.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovieServiceApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MovieServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aleksandar/IdeaProjects/spring-boot-microservices&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aleksandar\IdeaProjects\CinemaBookingProject" />
@@ -351,12 +363,26 @@
       <option name="project" value="LOCAL" />
       <updated>1738275946466</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Deleted all classes.">
+      <option name="closed" value="true" />
+      <created>1738276048011</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1738276048011</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Changed UserController RequestMapping path">
+      <option name="closed" value="true" />
+      <created>1738334212750</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1738334212750</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Configuration Server created" />
-    <MESSAGE value="Configuration Server finished" />
     <MESSAGE value="Configuration server fixes" />
     <MESSAGE value="configuration.properties moved" />
     <MESSAGE value="configuration.properties moved to main folder" />
@@ -380,6 +406,8 @@
     <MESSAGE value="Pom file jwt dependencies add." />
     <MESSAGE value="User service application.properties files changed." />
     <MESSAGE value="File service path to save files changed." />
-    <option name="LAST_COMMIT_MESSAGE" value="File service path to save files changed." />
+    <MESSAGE value="Deleted all classes." />
+    <MESSAGE value="Changed UserController RequestMapping path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed UserController RequestMapping path" />
   </component>
 </project>
